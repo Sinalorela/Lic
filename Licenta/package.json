@@ -1,0 +1,36 @@
+{
+  "name": "Licenta",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "angular-mocks": "^1.5.9",
+    "angular-route": "^1.5.9",
+    "angular-ui-bootstrap": "^2.3.0",
+    "body-parser": "^1.17.2",
+    "bootstrap-css": "^3.0.0",
+    "compilex": "^0.7.3",
+    "cookie-parser": "^1.0.1",
+    "events": "^1.1.1",
+    "exec": "^0.2.1",
+    "express": "^4.2.0",
+    "express-session": "^1.15.3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^2.1.2",
+    "jquery": "^3.1.1",
+    "morgan": "^1.0.1",
+    "mysql": "*",
+    "nbind": "^0.3.5",
+    "node-cmd": "^2.0.0",
+    "node-gyp": "^3.4.0",
+    "nodemon": "^1.11.0",
+    "python": "0.0.4",
+    "replace": "^0.3.0",
+    "shelljs": "^0.7.8",
+    "simp-less": "^1.1.5",
+    "simpless": "^3.1.0"
+  }
+}

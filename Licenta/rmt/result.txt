@@ -1,0 +1,5 @@
+2 solutions.
+Solution #1:
+loop(mplus(S,N),mminus(N,mone)) if mle(mone,N)
+Solution #2:
+done(S) if bnot(mle(mone,N))

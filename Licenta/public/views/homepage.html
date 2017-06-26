@@ -1,0 +1,48 @@
+
+
+
+<div ng-controller="HomepageCtrl" class="home-ctrl">
+
+<div class="container">
+    <div class="model-examples">
+        <h3>Function Examples</h3>
+        <div id="examples">
+
+        </div>
+    </div>
+
+        <textarea id="chatBox" class="chat-box" ng-model="parentData.desc" rows="2"></textarea>
+        <button type="submit" class="btn btn-primary" ng-click="sub()" >Run</button>
+   
+
+      <div id="target"></div>
+
+
+    <!--<div class="tree-container">
+        <h2> Step one exemple</h2>
+        
+        
+       <div class="text-area-container">
+            <textarea id="chatBox" class="chat-box" rows="2"  ng-model="textModel"></textarea>
+        </div>
+        <div class="button-container btn-group btn-group-chat">
+            <button id="comment" ng-click="chat($event)" class="btn" value="Comment" > Run</button>
+        
+        </div>
+
+      <div id="jstree" class="tree center-tree"> 
+
+     </div>-->
+
+
+    </div>
+   <div ng-repeat="course in vm.Courses" id={{course.id}} ng-model="child.desc" ng-click="OpenCourse(course)" >
+				<label >{{course.name}}</label>
+	</div>
+	
+	
+	
+</div>
+
+
+<!--  -->

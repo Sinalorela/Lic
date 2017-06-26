@@ -1,0 +1,5 @@
+2 solutions.
+Solution #1:
+loop(mplus(mplus(S,N),mminus(N,mone)),mminus(mminus(N,mone),mone)) if band(mle(mone,N),mle(mone,mminus(N,mone)))
+Solution #2:
+done(mplus(S,N)) if band(mle(mone,N),bnot(mle(mone,mminus(N,mone))))
